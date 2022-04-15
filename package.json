@@ -11,6 +11,7 @@
     "vite": "^2.8.0"
   },
   "dependencies": {
+    "bezier-spline": "^2.0.0",
     "desmos": "^1.5.4"
   }
 }
