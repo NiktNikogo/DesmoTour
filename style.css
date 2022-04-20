@@ -6,3 +6,22 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+#graphs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.graph {
+  flex: 1 0 21%;  
+  width: 900px;
+  height: 900px;
+  padding: 3px;
+  margin: 5px;
+  display: inline-block;
+}
+.desmos {
+  background-color: lime;
+ 
+}
+.geogebra  {  
+  background-color: red;
+}

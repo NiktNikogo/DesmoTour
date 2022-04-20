@@ -7,8 +7,16 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="graphs">
+        <div id="desmos" class="graph desmos"></div>
+        <div id="geogebra" class="graph geogebra"></div>
+      </div>
+    </div>
     <script type="module" src="/maze.js"></script>
+    <script type="module" src="/utils.js"></script>
+    <script type="module" src="/mazeDesmos.js"></script>
+    <script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

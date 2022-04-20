@@ -1,5 +1,5 @@
 class Maze {
-    constructor(width, height, startingNode) {
+    constructor(width, height) {
         this.width = width;
         this.height = height;
         this.visited = new Array(this.width * this.height).fill(false);
@@ -12,6 +12,9 @@ class Maze {
         for(let i = 0; i < this.width * this.height; i++) {
             this.adjMap.set(i, []);
         }
+    }
+    getDims() {
+        return [this.width, this.height];
     }
     XYToNum(node) {
         if(this.height >= this.width) {
